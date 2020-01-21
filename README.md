@@ -14,3 +14,8 @@ npm install
 ```
 npm start
 ```
+
+## deploy to your Github gh-pages
+```
+npm run deploy
+```
