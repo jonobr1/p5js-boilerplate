@@ -13,12 +13,14 @@ var offset = {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textSize(size);
+  textStyle(BOLD);
   getText('./message.txt', updateText);
+  fill(255);
 }
 
 function draw() {
 
-  background(220);
+  background(0);
 
   var titles = capitalize(message).split(/\s/);
   var x = 0;
